@@ -1,0 +1,38 @@
+.decorate
+{
+    width:30%;
+    height:25%;
+    
+    background-color: white;
+    padding:20px;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+
+.signup
+{
+    color: skyblue;
+    margin-left:5px;
+}
+.txtalign
+{
+    margin-top:10px;
+    margin-left:120px;
+}
+.fontxt
+{
+    font-size: 15px;
+}
+.btn
+{
+    width:60px;
+    height:30px;
+}
+.form-group{
+    background-color: white;
+}
+.container
+{
+   position:relative;
+   left:500px;
+   top:200px;
+}

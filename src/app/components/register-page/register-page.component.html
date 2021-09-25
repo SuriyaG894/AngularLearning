@@ -1,0 +1,23 @@
+<form [formGroup]="registerform" (ngSubmit)="Onsubmit(registerform)">
+    <div class="decorate">
+      <h2 style="margin-bottom:10px;margin-left:160px;">Registration Form</h2>
+    <div class="form-group">
+        <label for="firstname1" class="fontxt">Firstname</label>
+        <input type="email" class="form-control" id="firstname1" aria-describedby="emailHelp" placeholder="firstname" formControlName="fname">
+        <label for="lastname1" class="fontxt"class="space">Lastname</label>
+        <input type="email" class="form-control" id="lastname1" aria-describedby="emailHelp" placeholder="lastname" formControlName="lname">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="fontxt">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email " FormControlName="emailadd">
+      </div>
+      <div class="form-group">
+        <label for="Password1" class="fontxt">Password</label>
+        <input type="password" class="form-control" id="Password1" placeholder="Password" formControlName="pass">
+        <label for="cPassword1" class="fontxt" class="space">Confirm Password</label>
+        <input type="password" class="form-control" id="cPassword1" placeholder="ConfirmPassword" formControlName="cpass">
+      </div>
+      <button type="submit" class="btn btn-primary">Register</button><br>
+    </div>
+    </form>
+

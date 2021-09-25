@@ -1,0 +1,19 @@
+    Routing Concept:
+    ---------------
+-->First we have to create new project with, 
+    (--routing)->This will create new project with app-routing.module.ts,
+    where we have to set path and component for routing
+  
+    const routes: Routes = [
+  {path:'',component: LoginPageComponent},
+  { path: 'login', component: LoginPageComponent },
+  {path:'register',component:RegisterPageComponent},
+  {path:'todolist',component:TodolistComponent}
+];
+like the above mentioned code.
+   -> Then we have to use routeroutlet tag in app.component.html
+   -> Then we have to use routerLink in anchor tag where we have to 
+      do the routing .
+      <a routerLink="/register">sign up</a>
+      like in the above mentioned code.
+By doing this we can do routing.

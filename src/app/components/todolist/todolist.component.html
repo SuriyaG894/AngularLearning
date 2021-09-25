@@ -1,0 +1,19 @@
+<div>
+    
+    <div class="decorate">
+    <div class="form-group">
+        <form #todoform="ngForm" (ngSubmit)="Onsubmit(todoform)">
+        <h1>Todo List</h1>
+        <label for="todolist"></label>
+        <input type="email" class="form-control" id="todolist" aria-describedby="emailHelp" placeholder="Add Todo" name="list" ngModel >
+        <button class="btn btn-success alignbtn">ADD</button>
+        
+        </form>
+        <ul>
+            <li *ngFor="let data of getlistdata">
+                {{data.List}}
+            </li>
+        </ul>
+      </div>
+      </div>
+</div>
