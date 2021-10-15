@@ -10,11 +10,11 @@ import { SignapiService } from 'src/app/services/signapi.service';
 export class RegisterPageComponent implements OnInit {
   signdata:any;
   registerform = new FormGroup({
-    fname :new FormControl(),
-    lname : new FormControl(),
-    emailadd:new FormControl(),
-    pass : new FormControl(),
-    cpass : new FormControl()
+    FirstName :new FormControl(),
+    LastName : new FormControl(),
+    Email:new FormControl(),
+    Password : new FormControl(),
+    Cpassword : new FormControl()
     });
   constructor(private signcall:SignapiService) { }
     Onsubmit(mydatas:any)

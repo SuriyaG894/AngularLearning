@@ -1,4 +1,4 @@
-.decorate
+/* .decorate
 {
     width:30%;
     height:25%;
@@ -26,6 +26,7 @@
 {
     width:60px;
     height:30px;
+    margin-left:43%;
 }
 .form-group{
     background-color: white;
@@ -35,4 +36,263 @@
    position:relative;
    left:500px;
    top:200px;
+} */
+/* .decorate
+{
+    width:35%;
+    height:50%;
+    background-color:white;
+    margin-left:35%;
+    margin-top:15%;
+    padding-left:6%;
+    padding-top:2%;
+    padding-bottom:2%;
+    box-shadow: 5px 10px 18px #888888;
+}
+ul li
+{
+    list-style-type:circle;
+    color:skyblue;
+    content:"\25A0"; 
+    font-size:20px;
+}
+ul li span{
+    color:skyblue;
+}
+.design{
+    border-radius:20px;
+    background-color:#F8F8F8;
+    border-top:none;
+    border:none;
+    color:#f7f7f7;
+    width:80%;
+}
+.boxalign
+{
+    margin-left:25px;
+}
+.sign-up
+{
+    background-color:#1DA1F2;
+    width:30%;
+    border-radius:20px;
+    padding-left:9%;
+    padding-top:3%;
+    padding-bottom:1%;
+    color:white;
+    font-size:10px;
+    margin-left:3%;
+    margin-top:2%;
+    letter-spacing: 1px;
+    display:inline-block;
+    
+}
+.already{
+    display:inline-block;
+    margin-left:8%;
+}
+.log{
+    color:#1DA1F2;
+    font-weight:bolder
+}
+.bluebox
+{
+    background-color:#1DA1F2;
+    height:20%;
+    width:35%;
+    margin-left:35%;
+    display:inline-block;
+    color:white;
+    padding-bottom:2%;
+    box-shadow: 5px 10px 18px #888888;
+}
+.faceb
+{
+    display:inline-block;
+    padding-top:2%;
+    background-color: white;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    padding-bottom:1.5%;
+    margin-left:29%;
+    margin-top:3%;
+}
+.ortag
+{
+    display:inline-block;
+    padding-top:2%;
+    background-color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    position:absolute;
+    left:51%;
+    top:69%;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+.fa-facebook
+{
+    color:#1DA1F2;
+    font-size: 15px;
+}
+.ordesign{
+    color:#1DA1F2;
+    font-size: 10px;
+    font-weight:bold;
+    
+}
+.finalstage
+{
+    font-size:15px;
+    margin-top:8%;
+    margin-left:30%;
+}
+.fa-twitter
+{
+    color:#1DA1F2;
+    font-size: 15px;   
+}
+.twitter
+{
+    display:inline-block;
+    padding-top:2%;
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:1.5%;
+    margin-left:5%;
+    margin-top:3%;
+}
+.fa-google-plus
+{
+    color:#1DA1F2;
+    font-size: 15px;    
+}
+.google
+{
+    display:inline-block;
+    padding-top:2%;
+    background-color: white;
+    padding-left:2%;
+    padding-right:1%;
+    padding-bottom:1.5%;
+    margin-left:5%;
+    margin-top:3%;
+}
+.fa-linkedin
+{
+    color:#1DA1F2;
+    font-size: 15px;
+}
+.linkedin
+{
+    display:inline-block;
+    padding-top:2%;
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:1.5%;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.top-sign
+{
+    color:#a9a9a9;
+    font-size:20px;
+    margin-left:30%;
+} */
+
+.bgimg
+{
+    background-image:url(~src/assets/img/darkbluesky.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.flex-container
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position:absolute;
+    left:10%;
+    top:20%;
+    transform:(-50%,-50%);
+    
+
+}
+.sign-img
+{
+    height:100%;
+    width:100%;
+    filter:blur(1px);
+    
+}
+.heading-sign
+{
+    color:lightgray;
+    font-size:30px;
+}
+.story
+{
+    position:absolute;
+    top:10%;
+    left:5%;
+    transform:(-50%,50%);
+}
+.parastyle
+{
+    margin-top:10%;
+}
+p{
+    font-size:16px;
+    color:lightgray;
+}
+.bton
+{
+    color:lightgray;
+    border:2px solid lightgray;
+    font-size:12px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:60%;
+}
+.formdesign
+{
+    background-color:white;
+    padding-top:5%;
+    padding-bottom:5%;
+    
+}
+.inputstyle
+{
+    width:50%;
+    margin-bottom:5%;
+    margin-left:25%;
+    padding-top:1%;
+    padding-bottom:2%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-size:12px;
+}
+.alignment
+{
+    margin-left:25%;
+    width:50%;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+.account
+{
+    color:black;
+    margin-left:35%;
+    font-size:10px;
+    margin-right:2%;
 }

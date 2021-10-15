@@ -6,12 +6,17 @@ import { Injectable } from '@angular/core';
 export class TodoserviceService {
 
   constructor(private http:HttpClient) { }
+  link="https://614ec6e3b4f6d30017b48380.mockapi.io/todolist";
   gettodolist()
   {
-    return this.http.get("https://614ec6e3b4f6d30017b48380.mockapi.io/todolist");
+    return this.http.get(this.link);
   }
   posttodolist(val:any)
   {
-    return this.http.post("https://614ec6e3b4f6d30017b48380.mockapi.io/todolist",{List:val.list});
+    return this.http.post(this.link,val.value);
+  }
+  deletelist(id:any)
+  {
+    return this.http.delete(`${this.link}/${id}`);
   }
 }

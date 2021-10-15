@@ -1,19 +1,47 @@
-<div>
-    
-    <div class="decorate">
-    <div class="form-group">
-        <form #todoform="ngForm" (ngSubmit)="Onsubmit(todoform)">
-        <h1>Todo List</h1>
-        <label for="todolist"></label>
-        <input type="email" class="form-control" id="todolist" aria-describedby="emailHelp" placeholder="Add Todo" name="list" ngModel >
-        <button class="btn btn-success alignbtn">ADD</button>
+<!-- <div class="bgimg"></div>
+    <div class="container">
+        <div class="alignments">
+            <div class="headingtodo">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <span>Website todo</span>
+            </div>
+        </div>
+        <div class="listbox">
+            <div class="listbg">
+                <form [formGroup]="todoform" (ngSubmit)="Onsubmit(todoform)">
+                    <div class="form-group btn-group">
+                        <input type="text"  placeholder="Add Todo" formControlName="listinput">
+                        <button class="btn btn-default" onclick="document.getElementById('myInput').value = ''">ADD</button>
+                    </div>
+                </form>
+                <ul *ngFor="let list of lists">
+                    <li>{{list.listinput}}</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="bgimg"></div>
+    <div class="card">
+    <mat-card>
+    <div >
         
-        </form>
-        <ul>
-            <li *ngFor="let data of getlistdata">
-                {{data.List}}
-            </li>
+        <div class="headings">
+            <h2 style="text-align:center;">Todo List</h2>
+            <p style="font-size:16px;text-align:center">Remaining Task :{{count}}</p>
+        </div>
+        <hr>
+        <ul *ngFor="let list of lists"class="liststyle">
+            <li>{{list.listinput}}<a (click)="deletelist(list)" class="btn"><i class="fa fa-trash" aria-hidden="true"></i>
+            </a></li>
         </ul>
-      </div>
-      </div>
+        <form [formGroup]="todoform" (ngSubmit)="Onsubmit(todoform)" class="marabove">
+            
+            <input type="text" placeholder="Add Todo" formControlName="listinput" class="form-control">
+            <button class="btn btn-primary spacingbt">Add</button>
+
+        </form>
+    </div>
+</mat-card>
 </div>
+

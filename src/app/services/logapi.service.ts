@@ -8,10 +8,10 @@ export class LogapiService {
   constructor(private http:HttpClient) { }
   getlogdata()
   {
-    return this.http.get("https://614eb95fb4f6d30017b4835e.mockapi.io/logdata");
+    return this.http.get("https://614ec6e3b4f6d30017b48380.mockapi.io/login");
   }
   postlogdata(val:any)
   {
-    return this.http.post("https://614eb95fb4f6d30017b4835e.mockapi.io/logdata",val);
+    return this.http.post("https://614ec6e3b4f6d30017b48380.mockapi.io/login",val);
   }
 }

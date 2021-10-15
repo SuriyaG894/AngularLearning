@@ -1,4 +1,4 @@
-.decorate
+/* .decorate
 {
     width:500px;
     height:450px;
@@ -17,4 +17,252 @@
     margin-left:200px;
     width:60px;
     height:30px;
+} */
+
+/* .imgdesign
+{
+    margin-top:15%;
+    margin-left:40%;
+}
+.backcolor
+{
+    background-color: #9250cf;
+}
+.ainvoice
+{
+    color:white;
+    font-size:30px;
+    margin-left:37%;
+    margin-top:5%;
+}
+.timetrack
+{
+    color:lightgray;
+    font-size:16px;
+    margin-left:33%;
+    margin-bottom:48%;
+}
+.view
+{
+    color:lightgray;
+    margin-left:32%;
+    font-size:20px;
+    margin-bottom:4%;
+}
+.fa-globe
+{
+    margin-right:1%;
+}
+.sign-inpage
+{
+    color:gray;
+    font-size:30px;
+    margin-left:8%;
+    margin-top:18%;
+    margin-bottom:6%;
+}
+input
+{
+    width:50%;
+    height:36px;
+    font-size:15px;
+    margin-bottom:1%;
+    margin-left:10%;
+    border:2px solid lightgray;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:5px;
+}
+.forget
+{
+    font-size:15px;   
+    margin-left:10%;
+    color:gray;
+    display:inline block;
+}
+.sign-inbtn
+{
+    display:inline-block;
+    left:77%;
+    width:10%;
+    padding-top:1%;
+    padding-bottom:1%;
+    top:44%;
+    border:none;
+    background-color:#9250cf;
+    color:white;
+    font-size:12px;
+    margin-left:22%;
+}
+.account
+{
+    border:none;
+    margin-top:44%;
+    margin-left:11%;
+    background-color:#f3f0f5;
+    padding:2%;
+    font-size:15px;
+    width:52%;
+    padding-left:9%;
+    padding-right:9%;
+    border:1px solid #9965ca;
+} */
+ /* .moveleft
+{
+    padding-left:6%;
+}  */
+/* .container
+{
+    margin-top:2.5%;
+    margin-left:15%;
+} */
+
+/* .flexalign
+{
+    margin-top:4%;
+}
+.padleft
+{
+    padding-left:7%;
+}
+.container
+{
+    width:100%;
+    height:100%;
+}
+.imgfixed
+{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height:50%;
+} */
+.bgimg
+{
+    background-image:url(~src/assets/img/darkbluesky.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.decorate
+{
+    
+    position:absolute;
+    left:35.5%;
+    top:20%;
+    width:500px;
+    height:500px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+    
+    background-color:white;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+.img-sty
+{
+    max-width: 100%;
+    height:auto;
+    opacity: 0.8;
+}
+.sign
+{
+    margin-bottom:30px;
+}
+.sign-up
+{
+    text-align:left;
+    margin-left:60px;
+    margin-top:30px;
+    font-weight:700;
+    color:black;
+}
+.para_tag
+{
+    text-align:left;
+    margin-left:60px;
+    margin-top:30px;
+    font-weight:700;
+    color:black;
+}
+.form_s
+{
+    margin-bottom:20px;
+}
+.indentleft
+{
+    padding-left:10%;
+}
+.first_name
+{
+    height:30px;
+    outline-color: blue;
+    margin-right:10px;
+    width:40.5%;
+    font-size: 12px;
+}
+.lname
+{
+    height:30px;outline-color: blue;
+    width:40.5%;
+    font-size:12px;
+}
+.email{
+    width:376px;
+    height:30px;
+    margin-bottom:20px;
+    outline-color: blue;
+    font-size:12px;
+}
+.passwd
+{
+    width:376px;
+    height:30px;
+    margin-bottom:20px;
+    outline-color: blue; 
+    font-size:12px;
+}
+.cpasswd
+{
+    width:376px;
+    height:30px;
+    margin-bottom:30px;
+    outline-color: blue;
+    font-size:12px;
+}
+.accept
+{
+    margin-left:5px;
+}
+.terms
+{
+    color:black;
+    display:inline;
+}
+.privacy
+{
+    color:black;
+    display:inline;
+}
+.boton_r
+{
+    height:25%;
+    width:83%;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+.sign-in
+{
+    color:blue;
+    margin-left:1%;
+}
+.apara_align
+{
+    margin-left:25%;
 }

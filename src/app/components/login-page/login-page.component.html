@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
 <form [formGroup]="loginform" (ngSubmit)="Onsubmit(loginform)">    
     <div class="decorate">
     <div class="form-group">
@@ -20,4 +20,69 @@
     </div>
     </div>
 </form>
+</div> -->
+
+<!-- <div class="container">
+    <div class="decorate">
+      <h1 class="top-sign">Sign Up</h1>
+      <br>
+      <form [formGroup]="loginform" (ngSubmit)="Onsubmit(loginform)">
+        <ul>
+          <div class="form-group">
+          <li><span><input type="text" class="form-control design" placeholder="USERNAME" formControlName="uname"></span></li>
+          </div>
+          <div class="form-group">
+          <li><span><input type="email" class="form-control design" placeholder="E-MAIL" formControlName="mailid"></span></li>
+          </div>
+          <div class="form-group">
+          <li><span><input type="password" class="form-control design" placeholder="PASSWORD" formControlName="pwd"></span></li>
+        </div>
+        </ul>
+        <input type="checkbox" class="boxalign"><span style="font-size:10px;color:#e6e6e6;">I agree all statements in </span><span style="font-size:10px;color:#1DA1F2">Terms and Conditions</span>
+      </form>
+      <div class="sign-up">
+        <p>SIGN UP</p>
+      </div>      
+      <div class="already">
+      <span>Already have account?<span class="log" ><a href="#" routerLink="/register"> Login</a></span></span>
+    </div>
+    <div class="ortag rounded-circle"><span class="ordesign">OR</span></div>
+    </div>
+    <div class="bluebox">
+      <p class="finalstage">Sign up with social platform</p>
+      <div class="faceb rounded-circle"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+      <div class="twitter rounded-circle"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+      <div class="google rounded-circle"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+      <div class="linkedin rounded-circle"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+    </div>
+</div> -->
+<div class="bgimg"></div>
+<div class="flex-container">
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+        <img src="assets/img/darkbluesky.jpg" alt="" class="sign-img">
+        <div class="story">
+          <span class="heading-sign">Sign in</span>
+          <p class="parastyle">Join us and share our passion  </p>
+          <p >for the road</p>
+          <a href="#" class="btn bton">breakaway</a>
+        </div>
+    </div>
+  <div class="col-5 formdesign">
+    <div>
+      <form [formGroup]="loginform" (ngSubmit)="Onsubmit(loginform)">
+        <div class="form-group">
+          <input type="text" placeholder="email" class=" inputstyle" formControlName="email">
+          <input type="text" placeholder="password" class="inputstyle" formControlName="password">
+          <input type="submit" value="Sign in" class="btn btn-primary alignment" routerLink="/todo">
+        </div>       
+      </form>
+      <span class="account">Don't have an account</span><span style="color:blue"><a routerLink="/register" style="text-decoration:none">Sign up</a></span>
+    </div>
+  </div>
+  </div>
 </div>
+</div>
+
+
